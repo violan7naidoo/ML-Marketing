@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-   "build": "next build && node db/seed.js",
+    "build": "next build && ts-node db/seed.ts",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
