@@ -8,23 +8,23 @@ import Link from 'next/link';
 
 const prices = [
   {
-    name: '$1 to $50',
+    name: 'R1 to R50',
     value: '1-50',
   },
   {
-    name: '$51 to $100',
+    name: 'R51 to R100',
     value: '51-100',
   },
   {
-    name: '$101 to $200',
+    name: 'R101 to R200',
     value: '101-200',
   },
   {
-    name: '$201 to $500',
+    name: 'R201 to R500',
     value: '201-500',
   },
   {
-    name: '$501 to $1000',
+    name: 'R501 to R1000',
     value: '501-1000',
   },
 ];

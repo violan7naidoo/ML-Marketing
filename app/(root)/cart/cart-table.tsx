@@ -110,7 +110,7 @@ const CartTable = ({ cart }: { cart?: Cart }) => {
                         )}
                       </Button>
                     </TableCell>
-                    <TableCell className='text-right'>${item.price}</TableCell>
+                    <TableCell className='text-right'>R{item.price}</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
